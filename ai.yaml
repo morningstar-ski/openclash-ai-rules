@@ -1,0 +1,17 @@
+payload:
+  # OpenAI / ChatGPT
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+
+  # Anthropic / Claude
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claudeusercontent.com
+
+  # NVIDIA AI / API only (keep narrow to avoid driver/update traffic)
+  - DOMAIN-SUFFIX,api.nvcf.nvidia.com
+  - DOMAIN-SUFFIX,integrate.api.nvidia.com
+  - DOMAIN-SUFFIX,build.nvidia.com
+  - DOMAIN-SUFFIX,ngc.nvidia.com
