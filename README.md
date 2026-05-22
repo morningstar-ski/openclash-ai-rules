@@ -5,7 +5,7 @@ Minimal AI-focused rule set for OpenClash/Clash Meta.
 Included only:
 - OpenAI / ChatGPT
 - Anthropic / Claude
-- NVIDIA AI API related endpoints only
+- NVIDIA AI API related endpoints only; NVIDIA entries use exact DOMAIN rules where possible
 
 Excluded on purpose:
 - NVIDIA driver download
@@ -13,3 +13,4 @@ Excluded on purpose:
 - Any non-AI consumer or hardware-update traffic
 
 This repository is intentionally conservative to avoid over-proxying NVIDIA device/update traffic.
+

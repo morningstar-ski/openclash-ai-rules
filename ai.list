@@ -1,0 +1,11 @@
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN,api.nvcf.nvidia.com
+DOMAIN,integrate.api.nvidia.com
+DOMAIN,build.nvidia.com
+DOMAIN,ngc.nvidia.com

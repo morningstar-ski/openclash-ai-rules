@@ -10,8 +10,8 @@ payload:
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claudeusercontent.com
 
-  # NVIDIA AI / API only (keep narrow to avoid driver/update traffic)
-  - DOMAIN-SUFFIX,api.nvcf.nvidia.com
-  - DOMAIN-SUFFIX,integrate.api.nvidia.com
-  - DOMAIN-SUFFIX,build.nvidia.com
-  - DOMAIN-SUFFIX,ngc.nvidia.com
+  # NVIDIA AI / API only. Exact domains to avoid GPU driver/update traffic.
+  - DOMAIN,api.nvcf.nvidia.com
+  - DOMAIN,integrate.api.nvidia.com
+  - DOMAIN,build.nvidia.com
+  - DOMAIN,ngc.nvidia.com
