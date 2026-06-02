@@ -10,6 +10,9 @@ payload:
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claudeusercontent.com
 
+  # Custom relay / NewAPI gateway
+  - DOMAIN-SUFFIX,sakura886.site
+
   # NVIDIA AI / API only. Exact domains to avoid GPU driver/update traffic.
   - DOMAIN,api.nvcf.nvidia.com
   - DOMAIN,integrate.api.nvidia.com
