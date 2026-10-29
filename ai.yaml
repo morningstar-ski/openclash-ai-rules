@@ -1,19 +1,123 @@
 payload:
-  # OpenAI / ChatGPT
+  # Meta AI / Muse AI
+  - DOMAIN-SUFFIX,muse.ai
+  - DOMAIN-SUFFIX,withmuse.ai
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,metaai.com
+  - DOMAIN-SUFFIX,metaaiusercontent.com
+  - DOMAIN-SUFFIX,imagine.meta.com
+
+  # OpenAI / ChatGPT / Sora
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,chat.com
 
   # Anthropic / Claude
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
   - DOMAIN-SUFFIX,claudeusercontent.com
 
-  # Custom relay / NewAPI gateway
+  # Google Gemini / AI Studio / DeepMind
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,ai.google.dev
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,notebooklm.google.com
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN-SUFFIX,daily-cloudcode-pa.googleapis.com
+  - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+
+  # xAI / Grok
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com
+
+  # Perplexity AI
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,pplx.ai
+
+  # Midjourney
+  - DOMAIN-SUFFIX,midjourney.com
+
+  # Suno & Udio
+  - DOMAIN-SUFFIX,suno.ai
+  - DOMAIN-SUFFIX,suno.com
+  - DOMAIN-SUFFIX,udio.com
+
+  # Video AI
+  - DOMAIN-SUFFIX,runwayml.com
+  - DOMAIN-SUFFIX,runway.com
+  - DOMAIN-SUFFIX,luma.ai
+  - DOMAIN-SUFFIX,lumalabs.ai
+  - DOMAIN-SUFFIX,pika.art
+  - DOMAIN-SUFFIX,haiper.ai
+  - DOMAIN-SUFFIX,klingai.com
+  - DOMAIN-SUFFIX,klingai.org
+
+  # Image AI & Model Hubs
+  - DOMAIN-SUFFIX,civitai.com
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,hf.co
+  - DOMAIN-SUFFIX,hf.space
+  - DOMAIN-SUFFIX,replicate.com
+  - DOMAIN-SUFFIX,replicate.delivery
+  - DOMAIN-SUFFIX,fal.ai
+  - DOMAIN-SUFFIX,fal.run
+  - DOMAIN-SUFFIX,fal.media
+  - DOMAIN-SUFFIX,ideogram.ai
+  - DOMAIN-SUFFIX,leonardo.ai
+  - DOMAIN-SUFFIX,blackforestlabs.ai
+  - DOMAIN-SUFFIX,bfl.ai
+
+  # AI Coding & Agents
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,cursorapi.com
+  - DOMAIN-SUFFIX,codeium.com
+  - DOMAIN-SUFFIX,windsurf.ai
+  - DOMAIN-SUFFIX,v0.dev
+  - DOMAIN-SUFFIX,devin.ai
+  - DOMAIN-SUFFIX,cognition.ai
+  - DOMAIN-SUFFIX,cognition-labs.com
+  - DOMAIN-SUFFIX,replit.com
+  - DOMAIN-SUFFIX,lovable.dev
+  - DOMAIN-SUFFIX,bolt.new
+  - DOMAIN,copilot.microsoft.com
+  - DOMAIN,sydney.bing.com
+
+  # AI Inference & Platforms
+  - DOMAIN-SUFFIX,groq.com
+  - DOMAIN-SUFFIX,together.ai
+  - DOMAIN-SUFFIX,together.xyz
+  - DOMAIN-SUFFIX,cerebras.ai
+  - DOMAIN-SUFFIX,fireworks.ai
+  - DOMAIN-SUFFIX,mistral.ai
+  - DOMAIN-SUFFIX,cohere.com
+  - DOMAIN-SUFFIX,cohere.ai
+  - DOMAIN-SUFFIX,openrouter.ai
+  - DOMAIN-SUFFIX,deepinfra.com
+  - DOMAIN-SUFFIX,novita.ai
+  - DOMAIN-SUFFIX,deepseek.com
+
+  # AI Chat & Search Platforms
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,coze.com
+  - DOMAIN-SUFFIX,character.ai
+  - DOMAIN-SUFFIX,phind.com
+  - DOMAIN-SUFFIX,you.com
+  - DOMAIN-SUFFIX,jasper.ai
+  - DOMAIN-SUFFIX,jan.ai
+
+  # Custom Relay / Gateway
   - DOMAIN-SUFFIX,sakura886.site
 
-  # NVIDIA AI / API only. Exact domains to avoid GPU driver/update traffic.
+  # NVIDIA AI / API only
   - DOMAIN,api.nvcf.nvidia.com
   - DOMAIN,integrate.api.nvidia.com
   - DOMAIN,build.nvidia.com
