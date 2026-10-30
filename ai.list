@@ -4,45 +4,76 @@
 # (Google / Gemini / Antigravity excluded, routed via google_ai -> 🔎 Google)
 # ==========================================
 
-# Meta AI / Muse AI (Agent & Video/Generative AI)
-DOMAIN-SUFFIX,muse.ai
-DOMAIN-SUFFIX,withmuse.ai
-DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,metaai.com
-DOMAIN-SUFFIX,metaaiusercontent.com
-DOMAIN-SUFFIX,imagine.meta.com
-
-# OpenAI / ChatGPT / Sora
+# --- OpenAI / ChatGPT / Sora (含鉴权、人机风控、WebRTC语音与遥测) ---
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,auth0.openai.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,openai-api.arkoselabs.com
+DOMAIN-SUFFIX,browser-intake-datadoghq.com
+DOMAIN,tcr9i.chat.openai.com
+DOMAIN,webrtc.chatgpt.com
+DOMAIN,turn.openai.com
+DOMAIN,rtc.chatgpt.com
+DOMAIN-SUFFIX,pay.openai.com
 
-# Anthropic / Claude
+# --- Anthropic / Claude (含关键遥测与 Feature Gate 域名) ---
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,statsig.anthropic.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,api.statsig.com
+DOMAIN,use.typekit.net
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,api-iam.intercom.io
 
-# xAI / Grok
+# --- Meta AI / Muse / Facebook / Instagram / Threads 核心全家桶 ---
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,auth.muse.ai
+DOMAIN-SUFFIX,api.muse.ai
+DOMAIN-SUFFIX,withmuse.ai
+DOMAIN-SUFFIX,introducing.muse.ai
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,metaai.com
+DOMAIN-SUFFIX,metaaiusercontent.com
+DOMAIN-SUFFIX,imagine.meta.com
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,auth.meta.com
+DOMAIN-SUFFIX,accountscenter.meta.com
+DOMAIN-SUFFIX,graph.meta.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,threads.net
+DOMAIN-SUFFIX,oculus.com
+
+# --- 人机验证与 WebRTC STUN 探针（防止人机验证走香港被识别或跨源IP不匹配） ---
+DOMAIN,challenges.cloudflare.com
+DOMAIN,turnstile.cloudflare.com
+DOMAIN,stun.cloudflare.com
+DOMAIN,stun.l.google.com
+
+# --- xAI / Grok & Perplexity ---
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
-
-# Perplexity AI
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
 
-# Midjourney
+# --- 创意生成 AI (Midjourney, Suno, Udio, Runway, Luma, Pika, Kling, Civitai, HF) ---
 DOMAIN-SUFFIX,midjourney.com
-
-# Suno & Udio (AI Music)
 DOMAIN-SUFFIX,suno.ai
 DOMAIN-SUFFIX,suno.com
 DOMAIN-SUFFIX,udio.com
-
-# Video AI (Runway, Luma, Pika, Kling, Haiper)
 DOMAIN-SUFFIX,runwayml.com
 DOMAIN-SUFFIX,runway.com
 DOMAIN-SUFFIX,luma.ai
@@ -51,8 +82,6 @@ DOMAIN-SUFFIX,pika.art
 DOMAIN-SUFFIX,haiper.ai
 DOMAIN-SUFFIX,klingai.com
 DOMAIN-SUFFIX,klingai.org
-
-# Image AI & Model Hubs (Civitai, HuggingFace, Replicate, Fal, Ideogram, Leonardo, BFL Flux)
 DOMAIN-SUFFIX,civitai.com
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,hf.co
@@ -67,7 +96,7 @@ DOMAIN-SUFFIX,leonardo.ai
 DOMAIN-SUFFIX,blackforestlabs.ai
 DOMAIN-SUFFIX,bfl.ai
 
-# AI Coding & Agents (Cursor, Copilot, Windsurf, v0, Devin, Replit, Lovable, Bolt.new)
+# --- AI 编程与 Agent 平台 ---
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
@@ -83,7 +112,7 @@ DOMAIN-SUFFIX,bolt.new
 DOMAIN,copilot.microsoft.com
 DOMAIN,sydney.bing.com
 
-# AI Inference & Platforms (Groq, Together, Cerebras, Fireworks, Mistral, Cohere, DeepSeek, OpenRouter, Novita, DeepInfra)
+# --- AI 推理与大模型服务商 ---
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,together.ai
 DOMAIN-SUFFIX,together.xyz
@@ -96,8 +125,6 @@ DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,deepinfra.com
 DOMAIN-SUFFIX,novita.ai
 DOMAIN-SUFFIX,deepseek.com
-
-# AI Chat & Search Platforms (Poe, Coze, Character.ai, Phind, You.com, Jasper, Jan.ai)
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,character.ai
@@ -106,10 +133,10 @@ DOMAIN-SUFFIX,you.com
 DOMAIN-SUFFIX,jasper.ai
 DOMAIN-SUFFIX,jan.ai
 
-# Custom Relay / Gateway
+# --- Custom Relay / Gateway ---
 DOMAIN-SUFFIX,sakura886.site
 
-# NVIDIA AI / API only (Exact endpoints to avoid device driver updates)
+# --- NVIDIA AI / API only ---
 DOMAIN,api.nvcf.nvidia.com
 DOMAIN,integrate.api.nvidia.com
 DOMAIN,build.nvidia.com
