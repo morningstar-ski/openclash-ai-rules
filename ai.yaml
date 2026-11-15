@@ -170,3 +170,12 @@ payload:
   - DOMAIN-SUFFIX,idmsa.apple.com
   - DOMAIN-SUFFIX,apple-account.apple.com
   - DOMAIN-SUFFIX,uts-api.itunes.apple.com
+  - DOMAIN,bag.itunes.apple.com
+  - DOMAIN,init.itunes.apple.com
+  - DOMAIN,configuration.apple.com
+  - DOMAIN,smp-device-content.apple.com
+  - DOMAIN,cl2.apple.com
+  - DOMAIN,cl5.apple.com
+  - DOMAIN,dejavu.apple.com
+  - DOMAIN,pancake.apple.com
+  - DOMAIN,reservoir.apple.com
