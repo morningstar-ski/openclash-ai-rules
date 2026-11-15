@@ -143,6 +143,10 @@ DOMAIN,build.nvidia.com
 DOMAIN,ngc.nvidia.com
 
 # --- Apple Intelligence & Siri / Private Cloud Compute (PCC) & Location ---
+DOMAIN,gdmf.apple.com
+DOMAIN,gdmf-ados.apple.com
+DOMAIN-SUFFIX,oblivious.apple.com
+DOMAIN-KEYWORD,oblivious
 DOMAIN,wps.apple.com
 DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN-SUFFIX,ls.apple.com
