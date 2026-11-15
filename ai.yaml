@@ -110,7 +110,11 @@ payload:
   - DOMAIN,build.nvidia.com
   - DOMAIN,ngc.nvidia.com
 
-  # Apple Intelligence & Siri / Private Cloud Compute (PCC) & Location
+  # Apple Intelligence & Siri / Private Cloud Compute (PCC) & Unified Apple Exit
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,aaplimg.com
+  - DOMAIN-SUFFIX,push.apple.com
   - DOMAIN-SUFFIX,ls.apple.com
   - DOMAIN-SUFFIX,smoot.apple.com
   - DOMAIN-SUFFIX,guzzoni.apple.com
