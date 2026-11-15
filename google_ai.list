@@ -1,0 +1,22 @@
+# ==========================================
+# OpenClash Google AI / Gemini / DeepMind Rule Set
+# Maintained for morningstar-ski/openclash-ai-rules
+# Routed via google_ai -> 🧠 Ai (🏠 纯净住宅IP)
+# ==========================================
+
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,daily-cloudcode-pa.googleapis.com
+DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN-KEYWORD,cloudcode-pa
+DOMAIN-KEYWORD,geminiweb-pa
+DOMAIN-KEYWORD,alkalimakersuite
+DOMAIN-SUFFIX,aicode.googleapis.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,deepmind.com
