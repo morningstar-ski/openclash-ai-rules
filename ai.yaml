@@ -110,11 +110,7 @@ payload:
   - DOMAIN,build.nvidia.com
   - DOMAIN,ngc.nvidia.com
 
-  # Apple Intelligence & Siri / Private Cloud Compute (PCC) & Unified Apple Exit
-  - DOMAIN-SUFFIX,apple.com
-  - DOMAIN-SUFFIX,icloud.com
-  - DOMAIN-SUFFIX,aaplimg.com
-  - DOMAIN-SUFFIX,push.apple.com
+  # Apple Intelligence & Siri / Private Cloud Compute (PCC) & Location
   - DOMAIN-SUFFIX,ls.apple.com
   - DOMAIN-SUFFIX,smoot.apple.com
   - DOMAIN-SUFFIX,guzzoni.apple.com
@@ -125,19 +121,20 @@ payload:
   - DOMAIN-SUFFIX,apple-relay.akamaized.net
   - DOMAIN-SUFFIX,origin-apple-relay.apple.com
   - DOMAIN-SUFFIX,origin-apple-relay.cloudflare.com
+  - DOMAIN,probe.icloud.com
   - DOMAIN-SUFFIX,gateway.icloud.com
   - DOMAIN-SUFFIX,mask.icloud.com
   - DOMAIN-SUFFIX,mask-h2.icloud.com
   - DOMAIN-SUFFIX,mask-api.icloud.com
   - DOMAIN-SUFFIX,apple-dns.net
-  - DOMAIN-SUFFIX,apple-cloudkit.com
-  - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN-SUFFIX,modelcatalog.apple.com
   - DOMAIN-SUFFIX,idioms.apple.com
   - DOMAIN-SUFFIX,fides.apple.com
   - DOMAIN-SUFFIX,cl4.apple.com
   - DOMAIN-SUFFIX,cp4.apple.com
   - DOMAIN-SUFFIX,cp4.cloudflare.com
+  - DOMAIN,seed-probe.siri.apple.com
+  - DOMAIN,carry-probe.siri.apple.com
   - DOMAIN-SUFFIX,siri.apple.com
   - DOMAIN-SUFFIX,assistant.apple.com
   - DOMAIN-SUFFIX,apple-intelligence.apple.com
@@ -151,9 +148,7 @@ payload:
   - DOMAIN-SUFFIX,smoot-apple-com.v.aaplimg.com
   - DOMAIN-SUFFIX,guzzoni-apple-com.v.aaplimg.com
   - DOMAIN-KEYWORD,siri
-  - DOMAIN,bag.itunes.apple.com
   - DOMAIN,api-siri-prod.apple.com
   - DOMAIN,humb.apple.com
   - DOMAIN,cdn.auth0.com
   - DOMAIN-SUFFIX,livekit.cloud
-  - IP-CIDR,17.0.0.0/8,no-resolve
