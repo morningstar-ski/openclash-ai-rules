@@ -111,6 +111,8 @@ payload:
   - DOMAIN,ngc.nvidia.com
 
   # Apple Intelligence & Siri / Private Cloud Compute (PCC) & Location
+  - DOMAIN,wps.apple.com
+  - DOMAIN,gspe1-ssl.ls.apple.com
   - DOMAIN-SUFFIX,ls.apple.com
   - DOMAIN-SUFFIX,smoot.apple.com
   - DOMAIN-SUFFIX,guzzoni.apple.com
@@ -126,7 +128,11 @@ payload:
   - DOMAIN-SUFFIX,mask.icloud.com
   - DOMAIN-SUFFIX,mask-h2.icloud.com
   - DOMAIN-SUFFIX,mask-api.icloud.com
+  - DOMAIN,mask.apple-dns.net
+  - DOMAIN,mask-t.apple-dns.net
+  - DOMAIN,mask-api.fe.apple-dns.net
   - DOMAIN-SUFFIX,apple-dns.net
+  - DOMAIN-SUFFIX,apps.mzstatic.com
   - DOMAIN-SUFFIX,modelcatalog.apple.com
   - DOMAIN-SUFFIX,idioms.apple.com
   - DOMAIN-SUFFIX,fides.apple.com
