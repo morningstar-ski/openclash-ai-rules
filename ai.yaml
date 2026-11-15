@@ -162,6 +162,7 @@ payload:
   - DOMAIN,humb.apple.com
   - DOMAIN,cdn.auth0.com
   - DOMAIN-SUFFIX,livekit.cloud
+  - DOMAIN-KEYWORD,quota
   - DOMAIN-SUFFIX,quota.icloud.com
   - DOMAIN-SUFFIX,ess.apple.com
   - DOMAIN-SUFFIX,gsas.apple.com
