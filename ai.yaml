@@ -1,43 +1,28 @@
 payload:
-  # --- OpenAI / ChatGPT / Sora / Codex (锁香港+高风控，含鉴权、FeatureGate、WebRTC语音、CDN与精确遥测) ---
+  # ==========================================
+  # OpenClash Strict Residential-IP AI Rule Set
+  # Maintained for morningstar-ski/openclash-ai-rules
+  # Scope: ONLY AI services + B2B Anti-Fraud/Attestation/Feature-Gate/Auth/RUM SDKs
+  # ==========================================
+
+  # --- OpenAI / ChatGPT / Sora / Codex ---
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,chatgpt.site
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,oaistatsig.com
+  - DOMAIN-SUFFIX,oaifree.com
   - DOMAIN-SUFFIX,openaimerge.com
   - DOMAIN-SUFFIX,openai.org
   - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,crixet.com
   - DOMAIN-SUFFIX,chat.com
   - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,crixet.com
-  - DOMAIN-SUFFIX,auth0.openai.com
-  - DOMAIN-SUFFIX,pay.openai.com
-  - DOMAIN-SUFFIX,arkoselabs.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,openai-api.arkoselabs.com
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,prodregistryv2.org
-  - DOMAIN-SUFFIX,statsigapi.net
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,statsig.com
-  - DOMAIN-SUFFIX,api.statsig.com
-  - DOMAIN-SUFFIX,launchdarkly.com
-  - DOMAIN-SUFFIX,withpersona.com
-  - DOMAIN-SUFFIX,beyondidentity.com
-  - DOMAIN-SUFFIX,workos.com
-  - DOMAIN-SUFFIX,authkit.app
-  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
-  - DOMAIN-SUFFIX,us.sentry.io
   - DOMAIN,o33249.ingest.sentry.io
   - DOMAIN,o33249.ingest.us.sentry.io
-  - DOMAIN,tcr9i.chat.openai.com
-  - DOMAIN,webrtc.chatgpt.com
-  - DOMAIN,turn.openai.com
-  - DOMAIN,rtc.chatgpt.com
   - DOMAIN,openai.com.cdn.cloudflare.net
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN,ios.chat.openai.com.cdn.cloudflare.net
   - DOMAIN,openaiapi-site.azureedge.net
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
@@ -46,70 +31,120 @@ payload:
   - DOMAIN,openaicom.imgix.net
   - DOMAIN,openai.qualtrics.com
 
-  # --- Anthropic / Claude / Claude Code / MCP (行业最严风控，含精确遥测与客服校验域名) ---
+  # --- Anthropic / Claude / MCP ---
   - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,anthropic.team
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,clau.de
-  - DOMAIN-SUFFIX,claude.app
-  - DOMAIN-SUFFIX,claude.dev
-  - DOMAIN-SUFFIX,claude.new
-  - DOMAIN-SUFFIX,claude.site
-  - DOMAIN-SUFFIX,claudeacademy.com
-  - DOMAIN-SUFFIX,claudemcpclient.com
-  - DOMAIN-SUFFIX,claudemcpcontent.com
-  - DOMAIN-SUFFIX,claudepages.dev
-  - DOMAIN-SUFFIX,claudestudio.com
-  - DOMAIN-SUFFIX,chatbotclaude.com
-  - DOMAIN-SUFFIX,ant.dev
-  - DOMAIN-SUFFIX,antspace.dev
-  - DOMAIN-SUFFIX,statsig.anthropic.com
-  - DOMAIN,servd-anthropic-website.b-cdn.net
-  - DOMAIN,http-intake.logs.us5.datadoghq.com
+  - DOMAIN-SUFFIX,modelcontextprotocol.io
+  - DOMAIN,servicedesk.anthropic.com
+  - DOMAIN,o1158394.ingest.sentry.io
   - DOMAIN,o1158394.ingest.us.sentry.io
   - DOMAIN,cdn.usefathom.com
-  - DOMAIN,use.typekit.net
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,api-iam.intercom.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,intercomassets.com
 
-  # --- 人机验证、OAuth 鉴权与 WebRTC 语音探针（防止人机验证或 OAuth 会话跨源走香港） ---
-  - DOMAIN,challenges.cloudflare.com
-  - DOMAIN,turnstile.cloudflare.com
-  - DOMAIN,stun.cloudflare.com
-  - DOMAIN,stun.l.google.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN,cdn.auth0.com
-  - DOMAIN-SUFFIX,livekit.cloud
-
-  # --- xAI / Grok & Perplexity (锁香港+高频 CF 机房盾) ---
+  # --- xAI / Grok ---
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,grok.x.com
-  - DOMAIN-SUFFIX,grokbot.com
-  - DOMAIN-SUFFIX,grokipedia.com
+  - DOMAIN,api.x.ai
+  - DOMAIN,accounts.x.ai
+  - DOMAIN,console.x.ai
+  - DOMAIN,docs.x.ai
+
+  # --- Perplexity AI ---
   - DOMAIN-SUFFIX,perplexity.ai
-  - DOMAIN-SUFFIX,perplexity.com
   - DOMAIN-SUFFIX,pplx.ai
-  - DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
   - DOMAIN,pplx-res.cloudinary.com
 
-  # --- Microsoft Copilot / ElevenLabs / Composio / Groq & NVIDIA API (锁香港或严查机房/OAuth IP一致性) ---
+  # --- Microsoft Copilot & Bing AI ---
   - DOMAIN-SUFFIX,copilot.microsoft.com
   - DOMAIN-SUFFIX,copilot.cloud.microsoft
-  - DOMAIN-SUFFIX,copilot.com
-  - DOMAIN-SUFFIX,copilot-stg.com
   - DOMAIN,sydney.bing.com
   - DOMAIN,edgeservices.bing.com
+  - DOMAIN,rewards.bing.com
+  - DOMAIN,www.bingapis.com
+
+  # --- ElevenLabs / Groq / Mistral / Cohere / Composio / NVIDIA NIM ---
   - DOMAIN-SUFFIX,elevenlabs.io
   - DOMAIN-SUFFIX,elevenlabs.com
-  - DOMAIN-SUFFIX,elevenlabsusercontent.com
-  - DOMAIN-SUFFIX,composio.dev
   - DOMAIN-SUFFIX,groq.com
-  - DOMAIN,api.nvcf.nvidia.com
-  - DOMAIN,integrate.api.nvidia.com
+  - DOMAIN-SUFFIX,mistral.ai
+  - DOMAIN-SUFFIX,cohere.com
+  - DOMAIN-SUFFIX,cohere.ai
+  - DOMAIN-SUFFIX,composio.dev
   - DOMAIN,build.nvidia.com
+  - DOMAIN,integrate.api.nvidia.com
+  - DOMAIN,ai.api.nvidia.com
   - DOMAIN,ngc.nvidia.com
+
+  # --- B2B Anti-Fraud, Risk Scoring & Bot Challenge Engines (Shared by Claude/ChatGPT/AI SaaS) ---
+  - DOMAIN-SUFFIX,siftscience.com
+  - DOMAIN-SUFFIX,sift.com
+  - DOMAIN-SUFFIX,arkoselabs.com
+  - DOMAIN-SUFFIX,funcaptcha.com
+  - DOMAIN-SUFFIX,withpersona.com
+  - DOMAIN-SUFFIX,beyondidentity.com
+  - DOMAIN-SUFFIX,fpjs.io
+  - DOMAIN-SUFFIX,fingerprint.com
+  - DOMAIN-SUFFIX,fpnpmcdn.net
+  - DOMAIN-SUFFIX,castle.io
+  - DOMAIN-SUFFIX,sardine.ai
+  - DOMAIN-SUFFIX,stytch.com
+  - DOMAIN-SUFFIX,transmitsecurity.io
+  - DOMAIN-SUFFIX,forter.com
+  - DOMAIN-SUFFIX,kount.com
+  - DOMAIN-SUFFIX,online-metrix.net
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,stripe.network
+  - DOMAIN-SUFFIX,stripecdn.com
+  - DOMAIN-SUFFIX,recaptcha.net
+  - DOMAIN,challenges.cloudflare.com
+  - DOMAIN,turnstile.cloudflare.com
+  - DOMAIN,stun.cloudflare.com
+
+  # --- Mobile Hardware Device Attestation (Called during iOS AI App Login) ---
+  - DOMAIN-SUFFIX,appattest.apple.com
+  - DOMAIN-SUFFIX,devicecheck.apple.com
+
+  # --- Feature-Gate, A/B Geolocation Check & Config SDKs ---
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,prodregistryv2.org
+  - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN-SUFFIX,statsig.com
+  - DOMAIN-SUFFIX,statsigcdn.com
+  - DOMAIN-SUFFIX,oaistatsig.com
+  - DOMAIN-SUFFIX,beyondwickedmapping.org
+  - DOMAIN-SUFFIX,launchdarkly.com
+  - DOMAIN-SUFFIX,optimizely.com
+  - DOMAIN-SUFFIX,split.io
+  - DOMAIN-SUFFIX,growthbook.io
+  - DOMAIN-SUFFIX,flagsmith.com
+  - DOMAIN-SUFFIX,configcat.com
+
+  # --- Identity, OAuth & SSO Gateways ---
+  - DOMAIN-SUFFIX,workos.com
+  - DOMAIN-SUFFIX,authkit.app
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,clerk.com
+  - DOMAIN-SUFFIX,clerk.accounts.dev
+  - DOMAIN-SUFFIX,descope.com
+
+  # --- RUM, Crash & Session Telemetry SDKs (Preventing Client-IP Region Mismatch) ---
+  - DOMAIN-SUFFIX,datadoghq.com
+  - DOMAIN-SUFFIX,datadoghq.eu
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,sentry-cdn.com
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,segment.com
+  - DOMAIN-SUFFIX,amplitude.com
+  - DOMAIN-SUFFIX,mixpanel.com
+  - DOMAIN-SUFFIX,posthog.com
+  - DOMAIN-SUFFIX,braze.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,fullstory.com
+  - DOMAIN-SUFFIX,logrocket.com
+  - DOMAIN-SUFFIX,logrocket.io
+  - DOMAIN-SUFFIX,bugsnag.com
+  - DOMAIN-SUFFIX,honeybadger.io
