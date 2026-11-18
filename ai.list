@@ -132,6 +132,7 @@ DOMAIN-SUFFIX,descope.com
 # --- RUM, Crash & Session Telemetry SDKs (Preventing Client-IP Region Mismatch) ---
 DOMAIN-SUFFIX,datadoghq.com
 DOMAIN-SUFFIX,datadoghq.eu
+DOMAIN-KEYWORD,datadoghq
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sentry-cdn.com
 DOMAIN-SUFFIX,segment.io
