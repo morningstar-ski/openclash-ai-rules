@@ -56,6 +56,8 @@ DOMAIN,api-siri-prod.apple.com
 DOMAIN,humb.apple.com
 
 # --- Apple Intelligence 账号资格与认证服务 (防止权签请求泄漏至香港) ---
+DOMAIN-SUFFIX,appattest.apple.com
+DOMAIN-SUFFIX,devicecheck.apple.com
 DOMAIN-KEYWORD,quota
 DOMAIN-SUFFIX,quota.icloud.com
 DOMAIN-SUFFIX,ess.apple.com

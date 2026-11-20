@@ -49,6 +49,8 @@ payload:
   - DOMAIN-KEYWORD,siri
   - DOMAIN,api-siri-prod.apple.com
   - DOMAIN,humb.apple.com
+  - DOMAIN-SUFFIX,appattest.apple.com
+  - DOMAIN-SUFFIX,devicecheck.apple.com
   - DOMAIN-KEYWORD,quota
   - DOMAIN-SUFFIX,quota.icloud.com
   - DOMAIN-SUFFIX,ess.apple.com

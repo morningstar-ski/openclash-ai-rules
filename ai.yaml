@@ -37,8 +37,10 @@ payload:
   - DOMAIN-SUFFIX,claude.com
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,clau.de
+  - DOMAIN-SUFFIX,statsig.anthropic.com
   - DOMAIN-SUFFIX,modelcontextprotocol.io
   - DOMAIN,servicedesk.anthropic.com
+  - DOMAIN,servd-anthropic-website.b-cdn.net
   - DOMAIN,o1158394.ingest.sentry.io
   - DOMAIN,o1158394.ingest.us.sentry.io
   - DOMAIN,cdn.usefathom.com
@@ -99,13 +101,9 @@ payload:
   - DOMAIN-SUFFIX,stripe.network
   - DOMAIN-SUFFIX,stripecdn.com
   - DOMAIN-SUFFIX,recaptcha.net
-  - DOMAIN,challenges.cloudflare.com
-  - DOMAIN,turnstile.cloudflare.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,turnstile.cloudflare.com
   - DOMAIN,stun.cloudflare.com
-
-  # --- Mobile Hardware Device Attestation (Called during iOS AI App Login) ---
-  - DOMAIN-SUFFIX,appattest.apple.com
-  - DOMAIN-SUFFIX,devicecheck.apple.com
 
   # --- Feature-Gate, A/B Geolocation Check & Config SDKs ---
   - DOMAIN-SUFFIX,featuregates.org
